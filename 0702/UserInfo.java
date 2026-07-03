@@ -1,11 +1,13 @@
 public class UserInfo {
     public static void main(String[] args) {
         String userName = "Amy";
-        int age = 20;
-        double height = 1.65;
+        int id = 412631250;
+        String department = "Information Management";
+        int expectedScore = 90;
 
         System.out.println("Name: " + userName);
-        System.out.println("Age: " + age);
-        System.out.println("Height: " + height);
+        System.out.println("ID: " + id);
+        System.out.println("Department: " + department);
+        System.out.println("Expected Score: " + expectedScore);
     }
 }
